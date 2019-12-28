@@ -1,27 +1,5 @@
-eureka:
-  instance:
-    hostname: config
-  client:
-    service-url:
-      #指定要去注册的地址
-      defaultZone: http://localhost:8761/equreka,http://localhost:8762/equreka
-
-server:
-  port: 8766
-
-spring:
-  application:
-    name: kjxz-config
-
-  cloud:
-    config:
-      label: master
-      server:
-        git:
-          uri: https://github.com/liyifan123/config
-          username: 920398590@qq.com
-          password: hhxxttxs123
-          basedir: F:\qf\config
+dev:
+  name:lyf
 
 
 
